@@ -1,0 +1,8 @@
+.castom-form{
+    width: 500px;
+}
+@media (max-width:799px) {
+    .castom-form{
+        width: 100%;
+    }
+}

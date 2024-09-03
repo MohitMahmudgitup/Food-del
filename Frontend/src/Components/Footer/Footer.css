@@ -1,0 +1,30 @@
+@media (max-width:800px) {
+    .castom-footer{
+     flex-direction: column;
+     width: 100%;
+     padding: 20px;    
+    }
+    .castom-footer p{
+        font-size: 3.5vw;   
+    }
+    .castom-footer .castom-footer-logo{
+        width: 30vw;
+    }
+    .castom-footer .castom-footer-img{
+        width: 8vw;
+    }
+    .footer-dev2{
+        padding-top: 10px;
+    }
+    .footer-dev2 .footer-navItems li{
+        font-size: 4.2vw;
+        
+    }
+    .footer-dev3{
+        padding-top: 10px;
+    }
+    .footer-dev3 p{
+        font-size: 3.5vw;
+
+    }
+}

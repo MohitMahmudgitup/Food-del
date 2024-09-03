@@ -1,0 +1,10 @@
+.castom-app-main{
+    margin: auto;
+}
+@media (max-width:800px) {
+    .castom-app-main{
+        margin: 0;
+        width: 100%;
+        padding: 0 12px;
+    }
+  }

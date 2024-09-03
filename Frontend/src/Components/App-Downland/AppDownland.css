@@ -1,0 +1,14 @@
+.castom-dow-app{
+    transition: .44s;
+}
+.castom-dow-app:hover{
+    transform: scale(1.05);
+}
+@media (max-width:800px) {
+    .castom-AppDownland h1{
+        font-size: 6vw;
+    }
+    .castom-AppDownland img{
+        width: 40vw;
+    }
+}

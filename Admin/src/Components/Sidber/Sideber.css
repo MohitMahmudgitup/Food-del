@@ -1,0 +1,39 @@
+ .aside{
+    border-right: 1px solid rgba(0, 0, 0, 0.103);
+    flex-direction: column;
+    height: 100vh;
+   padding: 20px 10px 10px 60px;
+
+ }
+ .site-name-box{
+   background-color: rgba(228, 228, 228, 0.329);
+   padding: 10px 60px 10px 20px;
+  }
+  .site-name-box:hover{
+   background-color: rgb(228, 228, 228);
+
+  }
+ @media (max-width:799px) {
+    .aside{
+        flex-direction: row;
+        height: 20px;
+        justify-content: center;
+        padding: 10px 0;
+     }
+     .site-name-box{
+      background-color: rgba(228, 228, 228, 0.329);
+      padding: 20px 20px;
+     }
+     .site-name-box h1{
+      font-size: 14px;
+     }
+}
+@media (max-width:399px) {
+   .site-name-box img{
+      display: none;
+   }
+   .site-name-box{
+
+      padding: 20px 10px;
+     }
+}

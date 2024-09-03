@@ -1,0 +1,27 @@
+.castom-cart-item{
+    transition: .77s;
+}
+.castom-cart-item:hover{
+    transform: scale(1.05);
+}
+.castom-promo-input{
+    border-radius: 10px;
+    border: 1px solid;
+    width: 300px;
+}
+.castom-buttom{
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+@media (max-width:800px) {
+    .castom-all-promo{
+        flex-direction: column-reverse;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 50px 0px;
+    }
+    .castom-titel-name{
+        font-size: 3vw;
+    }
+}

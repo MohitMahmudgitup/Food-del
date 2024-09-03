@@ -1,0 +1,100 @@
+.castom-headerText{
+  animation:fadeIn 3s;
+} 
+.nav-profile-dorpdown{
+  position: absolute;
+  display: none;
+  right: 0px;
+  z-index: 1;
+}
+.navber-profile:hover .nav-profile-dorpdown{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background:#fff;
+  padding: 10px;
+  list-style: none;
+  border-radius: 10px;
+  width: 400%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.39);
+}
+.nav-profile-dorpdown li{
+  display: flex;
+  align-items: center;
+  position: relative;
+  gap: 10px;
+}
+.nav-profile-dorpdown li:hover{
+  color: green;
+}
+.nav-profile-dorpdown li img{
+  width: 20px;
+}
+
+@media (max-width:1200px) {
+
+  .castom-navItems li{
+    font-size: 2vw;
+  }
+}
+@media (max-width:800px) {
+  .castom-nav{
+    width: 100px;
+  }
+  .castom-navItems li{
+    display: none;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,31 @@
+@media (max-width:1200px){
+    castom-header{
+        height: 100px;
+    }
+    .castom-headerText h1{
+        font-size: 4vw;
+    }
+    .castom-headerText{
+        padding: 40px;
+        padding-bottom: 50px;
+    }
+}
+@media (max-width:800px) {
+    .castom-headerText h1{
+        font-size: 6.1vw;
+    }
+    .castom-header{
+        padding: 0px;
+    }
+    .castom-headerText{
+        padding: 10px;
+        padding-bottom: 20px;
+    }
+    .castom-headerText p{
+        display: none;
+    }
+    .castom-header-img{
+        border-radius: 10px;
+    }
+
+}

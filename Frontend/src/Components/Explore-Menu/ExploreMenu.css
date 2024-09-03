@@ -1,0 +1,26 @@
+.castom-explrebox{
+    overflow-x: scroll;
+}
+.castom-explrebox::-webkit-scrollbar{
+    display: none;
+}
+.castom-explrebox .active{
+    padding: 5px;
+    border: 4px solid #14ac00;
+}
+@media (max-width:800px) {
+    .castom-exlore {
+        text-align: center;
+    }
+    .castom-exlore h1{
+        padding:20px 0 ;
+    }
+    .castom-exlore p{
+        font-size: 4vw;
+        padding: 0;
+        padding-top:0px;
+    }
+    .castom-explrebox p{
+        font-size: 5vw;
+    }
+}

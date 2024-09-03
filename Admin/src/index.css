@@ -1,0 +1,48 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@font-face {
+  font-family:f1 ;
+  src: url(./Fonts/KFOlCnqEu92Fr1MmEU9fBBc4.woff2);
+}
+@font-face {
+  font-family:f2 ;
+  src: url(./Fonts/KFOlCnqEu92Fr1MmWUlfBBc4.woff2);
+}
+@font-face {
+  font-family:f3 ;
+  src: url(./Fonts/KFOmCnqEu92Fr1Mu4mxK.woff2);
+}
+@font-face {
+  font-family:f4 ;
+  src: url(./Fonts/Qw38ZQNGEDjaO2m6tqIqX5E-AVS5_rSejo46_PCTRspJ0OosolrBEJL3HO_T7fE.woff2);
+}
+.f1{
+  font-family: f1;
+}
+.f2{
+  font-family: f2;
+}
+.f3{
+  font-family: f3;
+}
+.f4{
+  font-family: f4;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+
+}
+body{
+  width: 100%;
+  max-height: 100vh;
+
+}
+.active{
+  background-color: rgb(228, 228, 228);
+}
